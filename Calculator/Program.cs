@@ -13,6 +13,7 @@ namespace Calculator
             int num2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Addition {0} + {1} = {2}", num1, num2, cal.addition(num1, num2));
             Console.WriteLine("Difference between {0} and {1} is {2}", num1, num2, cal.subtraction(num1, num2));
+            Console.WriteLine("Multiplication {0} * {1} = {2}", num1, num2, cal.multiplication(num1, num2));
         }
     }
 }
